@@ -17,10 +17,10 @@ title: «｛ 小站 /〉
 # 作者信息
 # author为空时 Hexo/_config.yml 配置有效
 profile: 
-  author: Zack Lee
+  author: Keep ALl Simple
   # logo: /images/logo.jpg
   avatar: /images/header.jpg  
-  description: Keep All Simple
+  description: Zack Lee
 
 # site favicon
 # 图片放置于主题目录下: source/imgaes/
