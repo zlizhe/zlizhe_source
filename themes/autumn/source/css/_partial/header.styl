@@ -1,0 +1,90 @@
+.header 
+  text-align: center
+  h1, h2 
+    margin: 0
+    line-height: 1.2
+  .title 
+    a
+      color:#f78769
+      text-decoration: none
+      font: 700 3rem Lora-Bold
+      transition: .3s
+      &:hover
+        color: #bbb
+    
+  .desc
+      margin:.5em 0 .25em
+      font: 18px Lora
+      color: #bbb
+
+  .links 
+    height: 40px
+    margin: 2.25em auto 4.5em
+    border-top: 1px dashed #ddd
+    border-bottom: 1px dashed #ddd
+    font: 700 13px Lato-Bold
+    text-transform: uppercase
+    letter-spacing: 1px
+    ul 
+      text-decoration: none
+      padding: 0
+      li
+        display: inline-block
+        &:first-child::after
+          content: "\00B7"
+          margin: 0 .75em
+        &:last-child::after 
+          content: ''
+        a
+          color: #777
+          text-decoration: none
+          transition: .3s
+          &:hover
+            color: #f78769
+
+  .social-button
+    display: none
+  
+  .hide-links
+    display: block
+
+@media screen and (max-width: 640px) 
+  .header 
+    .title 
+      a
+        font-size: 2.5rem
+    .links
+      border: none
+
+    .social-links 
+      margin-top: 9px
+      padding-top: 9px !important
+      text-align: left
+      border-top: 1px dashed #ddd
+
+    .hide-links
+      display: none
+
+    .social-button
+      display: block
+      margin: 0 auto
+      padding: .75em 1em
+      border: 1px dashed #fff
+      outline: 5px solid #bbb
+      background: #bbb
+      font: 700 13px Lato-Bold
+      color: #fff
+      text-transform: upperCase
+            
+      &::before 
+        content: ''
+        background: url('../../img/menu.svg')
+        display: inline-block
+        width: 16px
+        height: 16px
+        margin-right: 3px
+        vertical-align: -3px
+
+      &:focus, &:active
+        background: #f78769
+        outline: 5px solid #f78769

@@ -1,0 +1,139 @@
+# header nav
+# 导航菜单路径
+menu:
+  home: /
+  archives: archives
+  # tags: tags
+  # about: about
+  search: search
+
+# site title 
+# 网站的标题
+# title为空时 Hexo/_config.yml 配置有效
+title: «｛ 小站 /〉
+
+# author profile
+# 图片放置于主题目录下: source/imgaes/
+# 作者信息
+# author为空时 Hexo/_config.yml 配置有效
+profile: 
+  author: Zack Lee
+  # logo: /images/logo.jpg
+  avatar: /images/header.jpg  
+  description: Keep All Simple
+
+# site favicon
+# 图片放置于主题目录下: source/imgaes/
+# 站点图标
+favicon: /images/favicon.png
+
+# social link
+# 更多链接
+social:  
+  Github: https://github.com/zlizhe
+  # Weibo:
+# Zhihu:
+  # Facebook:
+#  Twitter:
+  # Instagram:
+#  LinkedIn:
+  # Neteasemusic:
+#  Csdn: 
+
+
+# site analytics 
+# 站点访问统计
+# 填入百度/谷歌的[ analytics id ]
+baidu_analytics:
+ #636802045446222199ae541e32c8133e 
+google_analytics: 
+
+# comment
+# 评论系统
+
+# disqus(https://disqus.com/)
+# 填入shortname即可
+disqus:
+  comment: false
+  shortname: 
+
+# valine(https://github.com/xCss/Valine)
+# 创建 leancloud 应用 获取 id|key 填入即可
+leancloud:  
+  comment: false
+  app_id: 
+  app_key: 
+
+# mob share(http://www.mob.com)
+# 文章分享功能
+mob_share:
+  true
+
+# 支持的分享类型
+share_item:
+- weixin
+# - qq
+# - weibo
+# - douban
+# - facebook
+- twitter
+#- tumblr
+# - google
+
+# donate
+# 捐赠功能
+# 图片放置于主题目录下: source/imgaes/
+donate:
+  enable: false
+  # word: 世界美好 你也是
+  # wechat: /images/donate1.png
+  # alipay: /images/donate2.png
+
+
+# toc
+# 全局控制文章的概要是否显示
+# 可以在单个文章设置是否显示toc (参见下方说明)
+toc:
+  true
+
+# mathjax 
+# 渲染LateX公式
+# 全局开启后,在你需要显示LateX公式的文章头部增加配置 
+# mathjax: true (参见下方说明)
+mathjax:
+  enable: true
+  
+# 在你的文章头部支持的配置有:
+  # example:
+  # ---
+  # title: hexo-theme-nayo
+  # date: 2018-02-08 21:44:25
+  #
+  # hide_toc: true | false
+  # hide_excerpt: true | false
+  # banner: /assets/05.jpg
+  # mathjax: true
+  # photos:
+  # - /assets/01.jpg
+  # - /assets/02.jpg
+  # - /assets/03.jpg
+  # - /assets/04.jpg
+# ---
+
+# 文章详情页面生效的配置
+# hide_toc [boolean] 是否隐藏此文章的[TOC],默认为false
+# hide_excerpt [boolean] 是否隐藏此[文章摘要](摘要只显示在首页,不显示在文章页),默认为false
+# mathjax [boolean] 是否在此文章[渲染LateX公式]
+# photos [array] 文章画廊展示图片
+
+# footer
+# 网站底部信息
+footer:
+  author: Zack Lee
+  since: 
+
+
+# theme version
+# enjoy it!
+version:
+  0.3.3

@@ -1,0 +1,25 @@
+<header class="header">
+    <h1 class="title">
+        <a href="<%- url_for() %>" class="logo">
+            <%= config.title %>
+        </a>
+    </h1>
+    <h2 class="desc">
+        <%= config.subtitle %>
+    </h2>
+
+    <nav class="links">
+        <button class="social-button">
+            menu
+        </button>
+        <ul class="social-links hide-links">
+            <% for (name in theme.social) { %>
+                <li>
+                    <a href="<%- url_for(theme.social[name]) %>">
+                        <%- name %>
+                    </a>
+                </li>
+                <% } %>
+        </ul>
+    </nav>
+</header>
