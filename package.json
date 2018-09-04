@@ -6,7 +6,8 @@
     "version": "3.7.1"
   },
   "dependencies": {
-    "hexo": "^3.7.0",
+    "coffeescript": "^2.3.1",
+    "hexo": "^3.7.1",
     "hexo-asset-image": "0.0.3",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.5",
